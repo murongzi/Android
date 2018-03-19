@@ -6,10 +6,21 @@
     android:layout_height="match_parent"
     tools:context="com.example.mazidong.testbroadcast.MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="send broadcast"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="send broadcast"/>
+
+                <Button
+                    android:id="@+id/button_local"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="send local broadcast"/>
+        </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

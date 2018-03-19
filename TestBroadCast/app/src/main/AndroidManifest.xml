@@ -20,14 +20,14 @@
             </intent-filter>
         </activity>
 
-        <!--<receiver
+        <receiver
             android:name=".BootCompleteReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
-        </receiver>-->
+        </receiver>
         <receiver
             android:name="com.example.mazidong.testbroadcast.MyBroadCastReceiver"
             android:enabled="true"
